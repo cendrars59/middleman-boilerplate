@@ -30,18 +30,21 @@
     <!-- Link to font-awesome lib.. in order to get logo IE-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <!-- Link to get the font Open sans and Montserrat-->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Link to the customized style sheet-->
-    <link rel="stylesheet" type="text/css" href="Css/style.css">
-
-
-
+    
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
 
+    <!----------------------------------------------------------------------------------------- -->
+    <!------------------------------- Link to style sheets -----------------------------------  -->
+    <!----------------------------------------------------------------------------------------- -->
+
     <%= stylesheet_link_tag "all" %>
+
+    <!----------------------------------------------------------------------------------------- -->
+    <!----------------- - Link to javascripts file including jquery---------------------------  -->
+    <!----------------------------------------------------------------------------------------- -->
+
+
     <%= javascript_include_tag  "all" %>
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -54,7 +57,6 @@
 
   <body class="<%= page_classes %>">
 
-    <div class="container">
       <!-- ---------------------------------------------------------------------------  -->  
       <!--                  Head of the page including a navbar                         --> 
       <!-- ---------------------------------------------------------------------------  -->
@@ -108,17 +110,12 @@
         <!--                  Content of the page                                         --> 
         <!-- ---------------------------------------------------------------------------  -->
         
-        <div class="main">
          <%= yield %> 
-        </div>
 
-        <div class="Clear"></div>
         <!-- ---------------------------------------------------------------------------  -->  
         <!--                  Footer of the page                                          --> 
         <!-- ---------------------------------------------------------------------------  -->
         <div class="Clear"></div>
-        <p>C'est mon footer</p>
-        
-    </div><!-- /. Container -->    
+        <p>C'est mon footer</p>   
   </body>
 </html>

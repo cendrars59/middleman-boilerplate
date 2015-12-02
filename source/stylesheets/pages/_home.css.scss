@@ -1,0 +1,54 @@
+/* ------------------------------------------------------------------------
+ * Style sheet in order to manage the design of the Index page
+ * 
+ * Feel free to change them and create your own
+ * ---------------------------------------------------------------------  */
+
+
+/*  ------------------------------------------------------------------------
+ * Customized class
+ * -----------------------------------------------------------------------  */
+
+.index-Card{
+	background-size: cover;
+	height: 500px;
+ 	color: white;
+ }
+
+ .index-Card-Into{
+ 	width: 700px;
+ 	padding: 50px;
+	margin: 0, auto;
+}
+
+
+/*  ------------------------------------------------------------------------
+ * Customized Component configuration
+ * -----------------------------------------------------------------------  */
+
+#Index-Intro{
+ 	background-image: image-url("Index-Div-Intro-clock.jpg");
+ }
+
+ #Index-Intro-Text{
+    margin-top: 10px; 
+ 	float: right;
+ }
+
+
+ #Index-BlogSample{
+ 	background-color: $blue;
+ }
+
+ #Index-BlogSample-Posts{
+ 	margin: 0, auto;
+ }
+ 
+
+
+
+
+
+
+
+

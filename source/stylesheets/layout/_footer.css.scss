@@ -1,1 +1,16 @@
-// Your footer style
+/* -------------------------------------
+ * Colors & Fonts
+ * ------------------------------------- */
+$footer-color: black;
+$footer-hover-color: $yellow;
+$footer-font-family: $header-font;
+$footer-bg: white;
+
+/* -------------------------------------
+ * Box model
+ * ------------------------------------- */
+$footer-height: 50px;
+$footer-vertical-padding: 5px;
+$footer-horizontal-padding: 20px;
+$footer-border-bottom-width: 0;
+$footer-border-bottom-color: grey;

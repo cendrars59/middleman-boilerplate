@@ -2,10 +2,44 @@
 title: Welcome on my website 
 ---
 
+		<div id="Index-Intro" class="index-Card">
+			<div class="container">
+				<div class="row">
+					<div class="xs-col-12">
+						<div class="index-Card-Into">
+							<div id="Index-Intro-Text">
+								<h1>Welcome on my site</h1>
+								<p>Bla bla bla </p>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div> 
+		<div id="Index-BlogSample" class="index-Card">
+			<div class="container">
+				<div class="row">
+					<div class="xs-col-12">
+						<div id="Index-BlogSample-TextBlock" class="index-Card-Into">
+						<h2>Blog sample</h2>
+							<div id="Index-BlogSample-Posts">
+								<% data.posts.each do |post| %>
+								<div class="post">
+									<h3> <%= post.title %> </h3>
+						 			<div class="Index-BlogSample-Posts-Content">
+						 			 <%= post.content%>
+						 			</div>
+								</div>
+							<% end %>
+							</div>
+						</div>	
+					</div> <!-  end xs-col->
+				</div><!-  end row ->
+			</div> <!-  end container ->
+		</div><!-  end Index-Blogsample ->
 
-<div class="row">
-	<div>
-		<p>Welcome on my page</p>
-	</div>
-</div>
+
+	
+
+
 
