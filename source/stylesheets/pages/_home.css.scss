@@ -11,7 +11,7 @@
 
 .index-Card{
 	background-size: cover;
-	height: 500px;
+	height: 700px;
  	color: white;
  }
 
@@ -27,12 +27,18 @@
  * -----------------------------------------------------------------------  */
 
 #Index-Intro{
+	position: relative;
  	background-image: image-url("Index-Div-Intro-clock.jpg");
  }
 
  #Index-Intro-Text{
-    margin-top: 10px; 
- 	float: right;
+ 	position: absolute;
+ 	top: 15%;
+ 	right: 18%;  
+ }
+
+ #Index-Newsletter{
+ 	background-color: $gray-lighter;
  }
 
 
